@@ -1,0 +1,736 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Front-end development - Linedata Project Management Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.3020aac5.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../css/style.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#welcome-to-frontend-docs" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Linedata Project Management Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">code</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Linedata Project Management Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              Front-end development
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="Linedata Project Management Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon">code</i>
+      
+    </a>
+    Linedata Project Management Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Up & Running" class="md-nav__link">
+      Up & Running
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Usage
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Usage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Use the Application
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Use the Application
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/app_use/" title="First step" class="md-nav__link">
+      First step
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2">
+    
+    <label class="md-nav__link" for="nav-2-1-2">
+      Projects
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-2">
+        Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/projects/" title="View projects" class="md-nav__link">
+      View projects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/add-project/" title="Add-project" class="md-nav__link">
+      Add-project
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/project-settings/" title="Project settings" class="md-nav__link">
+      Project settings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/project-management/" title="Project-management" class="md-nav__link">
+      Project-management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Use/task-settings/" title="Task settings" class="md-nav__link">
+      Task settings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Administration
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Administration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Administration/administration/" title="Back Office" class="md-nav__link">
+      Back Office
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-2" type="checkbox" id="nav-2-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2-2">
+      Management
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-2">
+        Management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Administration/translation/" title="Translation" class="md-nav__link">
+      Translation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Administration/icons/" title="Icons" class="md-nav__link">
+      Icons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Administration/defsettings/" title="Default Settings" class="md-nav__link">
+      Default Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Usage/Administration/options/" title="OptionTags" class="md-nav__link">
+      OptionTags
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Developpment
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Developpment
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Front-end development
+      </label>
+    
+    <a href="./" title="Front-end development" class="md-nav__link md-nav__link--active">
+      Front-end development
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usefull-commands" title="Usefull commands" class="md-nav__link">
+    Usefull commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-frontend-description" title="Project FrontEnd Description" class="md-nav__link">
+    Project FrontEnd Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-hierarchy" title="Global hierarchy" class="md-nav__link">
+    Global hierarchy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#components-details" title="Components details" class="md-nav__link">
+    Components details
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#services-details" title="Services details" class="md-nav__link">
+    Services details
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../back/microservices/" title="Microservices" class="md-nav__link">
+      Microservices
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usefull-commands" title="Usefull commands" class="md-nav__link">
+    Usefull commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-frontend-description" title="Project FrontEnd Description" class="md-nav__link">
+    Project FrontEnd Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-hierarchy" title="Global hierarchy" class="md-nav__link">
+    Global hierarchy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#components-details" title="Components details" class="md-nav__link">
+    Components details
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#services-details" title="Services details" class="md-nav__link">
+    Services details
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="welcome-to-frontend-docs">Welcome to FrontEnd Docs</h1>
+<p>Front documentation <a href="localhost:4200">Linedata App demo</a>.</p>
+<h2 id="usefull-commands">Usefull commands</h2>
+<ul>
+<li><strong><code>ng new</code></strong> - Create a new project.</li>
+<li><strong><code>ng generate</code></strong> - Generate components, routes, services and pipes with a simple command.</li>
+<li><strong><code>ng serve</code></strong> - Easily test your app locally while developing.</li>
+<li><strong><code>ng build</code></strong> - Compiles an Angular app into an output directory named dist/ at the given output path.</li>
+<li><strong><code>ng help</code></strong> - Show all available commands that helps in the development.</li>
+<li><strong><code>npm install</code></strong> - Using to install a package and any packages that it depends on.</li>
+</ul>
+<h2 id="project-frontend-description">Project FrontEnd Description</h2>
+<div class="admonition note">
+<p class="admonition-title">Short description</p>
+<p>Project Management is a web-application based on Nebular UI as Template. 
+Angular 7 framework, bootstrap 4 and Angular material as Front End.</p>
+</div>
+<h2 id="global-hierarchy">Global hierarchy</h2>
+<p>This picture shows the hierarchy of our Angular project (services and components)
+<img alt="hierarchy" src="../../../images/hierarchy.png" /></p>
+<h2 id="components-details">Components details</h2>
+<p>Create new component with : <strong><code>ng generate c name-component</code></strong></p>
+<p>Components created in the application with details:
+<img alt="components" src="../../../images/components.png" /></p>
+<p><strong><code>add-projectComponent</code></strong> : Component using to add a new project.</p>
+<p><strong><code>projectsComponent</code></strong> : Component used to show existing projects (setted and unsetted projects).</p>
+<p>1- <strong><code>project-cardComponent</code></strong> : Component used for setted project.</p>
+<p>2- <strong><code>project-stepperComponent</code></strong> : Component used to configure unsetted project.</p>
+<h2 id="services-details">Services details</h2>
+<p>Create new service with : <strong><code>ng generate service name-service</code></strong></p>
+<p>Services in the application:</p>
+<ul>
+<li><em><code>service-discovery.service</code></em> - Contains the global entry point to different microservices.</li>
+<li><em><code>project.service</code></em> - Contains methods used for projects (get, post ...)</li>
+<li><em><code>project-settings.service</code></em> - Contains methods used for project settings (get, post ...)</li>
+<li><em><code>backlog.service</code></em> - Service contains methods used for tasks in every backlog (post a task, tasks grouped by phase ...)</li>
+<li><em><code>tasks-settings.service</code></em> - Service contains methods to handle tasks configuration (generic tasks, types, phases, board)</li>
+<li><em><code>board.service</code></em> - Service used to get board of each backlog created.</li>
+<li><em><code>options.service</code></em> - Service used to get informations dynamically like searchTags, projectStatus, projectNature ...</li>
+<li><em><code>icons.service</code></em> - Service used to get all icons in the API. </li>
+<li><em><code>translation.service</code></em> - Service of translation. </li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../../Usage/Administration/options/" title="OptionTags" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                OptionTags
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../back/microservices/" title="Microservices" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Microservices
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
