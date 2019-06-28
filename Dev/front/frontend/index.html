@@ -556,13 +556,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#global-hierarchy" title="Global hierarchy" class="md-nav__link">
-    Global hierarchy
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#components-details" title="Components details" class="md-nav__link">
     Components details
   </a>
@@ -639,13 +632,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#global-hierarchy" title="Global hierarchy" class="md-nav__link">
-    Global hierarchy
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#components-details" title="Components details" class="md-nav__link">
     Components details
   </a>
@@ -681,29 +667,41 @@
 <h2 id="usefull-commands">Usefull commands</h2>
 <ul>
 <li><strong><code>ng new</code></strong> - Create a new project.</li>
+<li><strong><code>ng version</code></strong> - Used to know the version of Angular CLI and others.</li>
 <li><strong><code>ng generate</code></strong> - Generate components, routes, services and pipes with a simple command.</li>
 <li><strong><code>ng serve</code></strong> - Easily test your app locally while developing.</li>
-<li><strong><code>ng build</code></strong> - Compiles an Angular app into an output directory named dist/ at the given output path.</li>
-<li><strong><code>ng help</code></strong> - Show all available commands that helps in the development.</li>
-<li><strong><code>npm install</code></strong> - Using to install a package and any packages that it depends on.</li>
+<li><strong><code>ng build --prod</code></strong> - Compiles an Angular app into an output directory named dist/ at the given output path.</li>
+<li><strong><code>ng help</code></strong> - Shows all available commands that helps in the development.</li>
+<li><strong><code>ng add</code></strong> - Using to install external library in the project (example: ng add @angular/material).</li>
+<li><strong><code>npm install</code></strong> - Used to install a package and any packages that it depends on.</li>
 </ul>
+<p>You can visit this link for more commands : <strong><a href="https://angular.io/cli">Angular_CLI</a></strong> </p>
 <h2 id="project-frontend-description">Project FrontEnd Description</h2>
 <div class="admonition note">
 <p class="admonition-title">Short description</p>
 <p>Project Management is a web-application based on Nebular UI as Template. 
 Angular 7 framework, bootstrap 4 and Angular material as Front End.</p>
 </div>
-<h2 id="global-hierarchy">Global hierarchy</h2>
-<p>This picture shows the hierarchy of our Angular project (services and components)
-<img alt="hierarchy" src="../../../images/hierarchy.png" /></p>
 <h2 id="components-details">Components details</h2>
 <p>Create new component with : <strong><code>ng generate c name-component</code></strong></p>
-<p>Components created in the application with details:
-<img alt="components" src="../../../images/components.png" /></p>
-<p><strong><code>add-projectComponent</code></strong> : Component using to add a new project.</p>
-<p><strong><code>projectsComponent</code></strong> : Component used to show existing projects (setted and unsetted projects).</p>
-<p>1- <strong><code>project-cardComponent</code></strong> : Component used for setted project.</p>
-<p>2- <strong><code>project-stepperComponent</code></strong> : Component used to configure unsetted project.</p>
+<p>Components created in the application with details:</p>
+<p>1- <strong><code>display-iconComponent</code></strong> : Component used to display icons and using them in the application.</p>
+<p>2- <strong><code>display-membersComponent</code></strong> : Component used to display members.</p>
+<p>3- <strong><code>profileComponent</code></strong> : Component for each member to update his profile. For a product manager, he can promote team roles.</p>
+<p>4- <strong><code>add-projectComponent</code></strong> : Component used to add a new project.</p>
+<p>5- <strong><code>projectsComponent</code></strong> : Component used to show existing projects (setted and unsetted projects).</p>
+<p>-- <strong><code>project-cardComponent</code></strong> : Component used for setted project.</p>
+<p>-- <strong><code>project-stepperComponent</code></strong> : Component used to configure unsetted project.</p>
+<p>6- <strong><code>projects-managementComponent</code></strong> : Component used to show existing projects (setted and unsetted projects).</p>
+<p>-- <strong><code>project-backlogComponent</code></strong> : Component used to create and display project backlog with tasks.</p>
+<p>-- <strong><code>project-boardComponent</code></strong> : Component used to create and display project board with tasks.</p>
+<p>-- <strong><code>project-retrospectiveComponent</code></strong> : Component used to change the status of a project and add retrospectives.</p>
+<p>-- <strong><code>task-additional-infoComponent</code></strong> : Component used to create additional information for a task.</p>
+<p>7- <strong><code>settingsComponent</code></strong> : Component used to create preferences to the application and the mapping with Ken.</p>
+<p>-- <strong><code>display-tasks-settingComponent</code></strong> : Component used to add preferences to the application (generic tasks, task phases, task types and boards).</p>
+<p>-- <strong><code>global-settingsComponent</code></strong> : Component used to add global settings (activities from Ken and their done estimation).</p>
+<p>8- <strong><code>dashbordComponent</code></strong> : Component used to create and visualize data in different dashbords.</p>
+<p>9- <strong><code>widgetsComponent</code></strong> : Component used to create new widgets and visualize different types.</p>
 <h2 id="services-details">Services details</h2>
 <p>Create new service with : <strong><code>ng generate service name-service</code></strong></p>
 <p>Services in the application:</p>
@@ -717,6 +715,8 @@ Angular 7 framework, bootstrap 4 and Angular material as Front End.</p>
 <li><em><code>options.service</code></em> - Service used to get informations dynamically like searchTags, projectStatus, projectNature ...</li>
 <li><em><code>icons.service</code></em> - Service used to get all icons in the API. </li>
 <li><em><code>translation.service</code></em> - Service of translation. </li>
+<li><em><code>additional-info.service</code></em> - Service additional information of a task. </li>
+<li><em><code>dashboard.service</code></em> - Service of dashboards and widgets. </li>
 </ul>
                 
                   
